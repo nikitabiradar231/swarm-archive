@@ -35,7 +35,7 @@ Downloads archive from Swarm
 
 ## 2. Requirements
 
-- **Node.js**: v18+ (tested on Node v24)
+- **Node.js**: v20.12+ (Node 22 LTS recommended, tested on Node v24)
 - **npm**: v9+
 - **Bee Node / Swarm Desktop**: Running locally at `http://localhost:1633` (or accessible over network).
 - **Funded Postage Batch**: A valid Swarm postage batch ID on your Bee node.
