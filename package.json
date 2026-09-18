@@ -1,0 +1,25 @@
+{
+  "name": "eight-hundred-winters",
+  "version": "1.0.0",
+  "description": "Publishing and recovery tool for Tsering's manuscript archive using Swarm Feeds",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "publish-archive": "node dist/publish.js",
+    "recover": "node dist/recover.js",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersphere/bee-js": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "tar": "^7.5.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/tar": "^6.1.13",
+    "typescript": "^5.7.2"
+  }
+}
